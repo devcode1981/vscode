@@ -16,15 +16,15 @@
     "Programming Languages"
   ],
   "dependencies": {
-    "jsonc-parser": "^2.0.1",
-    "semver": "5.5.1",
-    "vscode-extension-telemetry": "0.1.0",
+    "jsonc-parser": "2.2.0",
+    "semver": "^7.1.2",
+    "vscode-extension-telemetry": "0.1.2",
     "vscode-nls": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "8.0.33",
-    "@types/semver": "^5.5.0",
-    "vscode": "^1.1.10"
+    "@types/node": "^13.5.3",
+    "@types/semver": "^7.1.0",
+    "vscode": "1.1.36"
   },
   "scripts": {
     "vscode:prepublish": "node ../../node_modules/gulp/bin/gulp.js --gulpfile ../../build/gulpfile.extensions.js compile-extension:typescript ./tsconfig.json"
