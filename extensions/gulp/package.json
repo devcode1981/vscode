@@ -19,7 +19,7 @@
     "vscode-nls": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^8.10.25"
+    "@types/node": "^13.5.3"
   },
   "main": "./out/main",
   "activationEvents": [
