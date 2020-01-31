@@ -737,11 +737,11 @@
     ]
   },
   "dependencies": {
-    "vscode-languageclient": "^5.1.0",
+    "vscode-languageclient": "^6.1.0",
     "vscode-nls": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^8.10.25",
-    "mocha": "^5.2.0"
+    "@types/node": "^13.5.3",
+    "mocha": "^7.0.1"
   }
 }
